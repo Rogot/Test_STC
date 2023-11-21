@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/a.out.dir/Source/main.cpp.o  -o a.out  -Wl,-rpath,/home/maksim/eclipse-workspace/TestSTC_1/build libadd.so 

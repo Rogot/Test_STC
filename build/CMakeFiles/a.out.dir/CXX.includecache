@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maksim/eclipse-workspace/TestSTC_1/Parser/inc/Parser.h
+string
+-
+vector
+-
+fstream
+-
+iostream
+-
+cstring
+-
+
+/home/maksim/eclipse-workspace/TestSTC_1/Source/main.cpp
+main.h
+/home/maksim/eclipse-workspace/TestSTC_1/Source/main.h
+
+/home/maksim/eclipse-workspace/TestSTC_1/Source/main.h
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+unistd.h
+-
+fstream
+-
+iostream
+-
+../Parser/inc/Parser.h
+/home/maksim/eclipse-workspace/TestSTC_1/Parser/inc/Parser.h
+
